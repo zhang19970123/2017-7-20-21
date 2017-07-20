@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.7.2.js"></script>
+	</head>
+	<body>
+		<div class="content">
+			<ul>
+				<li class="content_top"><a>快速搜索消费贷款</a></li>
+				<li class="content-xl clearfix">
+					<p class="content_1">贷款金额:</p>
+					<p class="content_1">不足一万可用小数表示</p>
+				</li>
+				<li class="content-y">
+					<input type="text" value="5万" class="inp1" />
+					<button class="btn1">&nbsp;</button>
+					
+					<ul class="ul1">
+						
+						<li>5万元</li>
+						<li>10万元</li>
+						<li>15万元</li>
+						<li>20万元</li>
+						<li>25万元</li>
+						<li>30万元</li>
+					</ul>
+				</li>
+				<li class="content-h">贷款期限:</li>
+				<li class="content-bot">
+					<input type="text"value="18个月" class="inp2"/>
+					<button class="btn2">&nbsp;</button>
+					<ul class="ul2">
+						<li>6个月</li>
+						<li>1年</li>
+						<li>18个月</li>
+						<li>2年</li>
+						<li>3年</li>
+						<li>4年</li>
+					</ul>
+				</li>
+				<li class="content_3"><p>搜索一下</p></li>
+				<li class="content_4">9164信贷产品&nbsp;2000家银行&nbsp;1403家小贷公司</li>
+			</ul>
+		</div>
+		<script src="js/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+				$(".btn1").click(function(){
+					
+					$(".ul1").stop().slideToggle()  //动画切换的效果
+					$(".ul1>li").click(function(){
+					$(".inp1").val( $(this).html())
+					$(".ul1").css("display","none")
+					})	
+				})
+				
+				$(".btn1").blur(function(){    //失去焦点
+					$(".ul1").stop().slideToggle();
+				})
+				
+					$(".btn2").click(function(){
+					
+				$(".ul2").stop().slideToggle();
+				$(".ul2>li").click(function(){
+				
+				$(".inp2").val( $(this).html())
+				$(".ul2").css("display","none")
+				})
+			})
+					
+					$(".btn2").blur(function(){
+					$(".ul2").stop().slideToggle();
+				})
+				
+		</script>
+	</body>
+</html>

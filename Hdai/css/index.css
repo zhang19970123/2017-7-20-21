@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.content {
+  width: 325px;
+  height: 400px;
+  background: #CCCCCC;
+  margin: 100px auto; }
+  .content ul .content_top {
+    padding-top: 30px;
+    margin-left: 22px;
+    font-size: 18px;
+    color: white; }
+  .content ul .content-xl {
+    margin-left: 22px;
+    padding-top: 20px;
+    color: white;
+    font-size: 14px; }
+    .content ul .content-xl .content_1 {
+      float: left; }
+    .content ul .content-xl .content_2 {
+      float: right;
+      margin-right: 22px; }
+  .content ul .content-dai:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .content ul .content-y {
+    padding-top: 5px;
+    margin-left: 22px;
+    position: relative; }
+    .content ul .content-y input {
+      width: 242px;
+      height: 45px;
+      line-height: 45px; }
+    .content ul .content-y button {
+      width: 40px;
+      height: 47px;
+      line-height: 45px;
+      background: white;
+      margin-left: -10px;
+      border: none;
+      border-left: 1px solid darkgrey;
+      outline: none; }
+    .content ul .content-y ul {
+      width: 284px;
+      background: white;
+      position: absolute;
+      z-index: 10;
+      display: none; }
+      .content ul .content-y ul li {
+        width: 100%; }
+      .content ul .content-y ul li:hover {
+        background: #C6D6E7; }
+  .content ul .content-h {
+    padding-top: 10px;
+    margin-left: 22px;
+    font-size: 16px;
+    color: white; }
+  .content ul .content-bot {
+    padding-top: 5px;
+    margin-left: 22px;
+    position: relative; }
+    .content ul .content-bot input {
+      width: 242px;
+      height: 45px;
+      line-height: 45px; }
+    .content ul .content-bot .btn2 {
+      width: 40px;
+      height: 47px;
+      line-height: 45px;
+      background: white;
+      margin-left: -10px;
+      border: none;
+      border-left: 1px solid darkgrey;
+      outline: none;
+      top: 20px; }
+    .content ul .content-bot ul {
+      width: 284px;
+      background: white;
+      position: absolute;
+      display: none; }
+      .content ul .content-bot ul li {
+        width: 100%; }
+      .content ul .content-bot ul li:hover {
+        background: #C6D6E7; }
+  .content ul .content_3 {
+    margin-top: 18px;
+    margin-left: 22px;
+    width: 282px;
+    height: 45px;
+    line-height: 45px;
+    background-color: blue; }
+    .content ul .content_3 p {
+      color: white;
+      text-align: center;
+      line-height: 45px; }
+  .content ul .content_4 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 14px;
+    color: #c6cece; }
+
+/*# sourceMappingURL=index.css.map */
